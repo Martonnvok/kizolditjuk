@@ -1,0 +1,35 @@
+body{
+    margin: auto 0px;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "t o"
+    ;
+}
+
+div{
+    padding: 5px;
+    margin: 5px;
+}
+.tevekenysegek{
+    grid-area: t;
+    border: 2px solid green;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.osztalyok{
+    grid-area: o;
+    border: 2px solid green;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+
